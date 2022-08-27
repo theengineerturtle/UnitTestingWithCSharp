@@ -44,18 +44,18 @@ Query functions returns data, so control if it is return true value.\
 Command functions : Peroforms an action.Write db,change object in memory, sending a message in message queu\
 so you make change in system.Check the outcome of the method.We check the outcome is the right way\
 with external dependencies for example adding a new reservation in database and as a external \
-dependencies check the db if new reservation added with new id.\
+dependencies check the db if new reservation added with new id.
 
 ### Do not test
 You should not test Language features and 3rd-party codes, you should assume that they are properly tested, you should test only your code.\
 Test Classes:\
 Reservation.cs -> ReservationTests.cs\
-Number of tests => Number of Execution Paths\
+Number of tests => Number of Execution Paths
 
 ### Bad Tests
 Test1()\
 SaveCustomerTest()\
-GetMovie()\
+GetMovie()
 
 ### Test Methods
 [MethodName]_[Scenario]_[ExpectedBehaviour]\
@@ -65,7 +65,7 @@ If you write your test code after production, make small changes in\
 production(not true values) code to check test code is trustworthy, \
 if it is still passing it is not trustworthy\
 also check the test tests the right thing.\
-You shouldn't test private methods!\
+You shouldn't test private methods!
 
 
 
