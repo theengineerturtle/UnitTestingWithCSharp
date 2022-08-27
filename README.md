@@ -3,6 +3,9 @@
 
 ### Fundamentals Of Unit Testing
 
+#### Unit Test Method Name
+[MethodName]_[Scenario]_[ExpectedBehaviour]
+
 #### Example Unit Test Method
 ```
 [Test]
@@ -56,9 +59,6 @@ Number of tests => Number of Execution Paths
 Test1()\
 SaveCustomerTest()\
 GetMovie()
-
-### Test Method Name
-[MethodName]_[Scenario]_[ExpectedBehaviour]
 
 ### Trustworthy
 Writing production code before test code sometimes may be makes bugs.\
