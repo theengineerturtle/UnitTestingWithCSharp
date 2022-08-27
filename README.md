@@ -3,17 +3,17 @@
 
 Fundamentals Of Unit Testing
 
-Example Unit Test Method:\
+Example Unit Test Method:
 ```
-[Test]\
-public void CanbeCancelledBy_UserIsAdmin_ReturnsTrue()\
-{\
-    //Arrange\
-    var reservation = new Reservation();\
-    //Act\
-    var result = reservation.CanBeCancelledBy(new User { IsAdmin = true });\
-    //Assert\
-    Assert.That(result, Is.True);\
+[Test]
+public void CanbeCancelledBy_UserIsAdmin_ReturnsTrue()
+{
+    //Arrange
+    var reservation = new Reservation();
+    //Act
+    var result = reservation.CanBeCancelledBy(new User { IsAdmin = true });
+    //Assert
+    Assert.That(result, Is.True);
 }\
 ```
 
