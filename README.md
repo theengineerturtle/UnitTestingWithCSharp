@@ -29,15 +29,15 @@ public void CanbeCancelledBy_UserIsAdmin_ReturnsTrue()
 - Test first/code first.
 
 ### Characteristic of Good Unit Tests:
-1- Clean, readable and maintable:less than 10 lines and single responsibility.
-2- No logic in Test for not write a bug in test, logic should be in production code only.
+1- Clean, readable and maintable:less than 10 lines and single responsibility.\
+2- No logic in Test for not write a bug in test, logic should be in production code only.\
  ```
 if(...){}
 else(...){}
 foreach(...){}
 ```
-3- Isolated: not call eac other.
-4- Not too specific/general
+3- Isolated: not call eac other.\
+4- Not too specific/general\
 
 ### Functions : Query & Command
 Query functions returns data, so control if it is return true value.\
