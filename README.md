@@ -57,9 +57,10 @@ Test1()\
 SaveCustomerTest()\
 GetMovie()
 
-### Test Methods
-[MethodName]_[Scenario]_[ExpectedBehaviour]\
-Trustworthy : \
+### Test Method Name
+[MethodName]_[Scenario]_[ExpectedBehaviour]
+
+### Trustworthy
 Writing production code before test code sometimes may be makes bugs.\
 If you write your test code after production, make small changes in\
 production(not true values) code to check test code is trustworthy, \
