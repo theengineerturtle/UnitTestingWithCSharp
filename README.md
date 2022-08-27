@@ -14,7 +14,7 @@ public void CanbeCancelledBy_UserIsAdmin_ReturnsTrue()
     var result = reservation.CanBeCancelledBy(new User { IsAdmin = true });
     //Assert
     Assert.That(result, Is.True);
-}\
+}
 ```
 
 Test-driven Development:\
