@@ -1,7 +1,7 @@
 # UnitTestingWithCSharp
-# Course by Mosh Hamedani
+## Course by Mosh Hamedani
 
-Fundamentals Of Unit Testing
+### Fundamentals Of Unit Testing
 
 Example Unit Test Method:
 ```
@@ -17,34 +17,41 @@ public void CanbeCancelledBy_UserIsAdmin_ReturnsTrue()
 }
 ```
 
-Test-driven Development:\
-Write a failing test.\
-Write the simplest code to make the test pass.\
-Refactor if necessary.\
-Benefits of TDD:\
-Testable Source Code\
-Full Coverage by Tests\
-Simpler Implementation\
-Test first/code first.\
-Characteristic of Good Unit Tests:\
-1-Clean, readable and maintable:less than 10 lines and single responsibility.\
-2-No logic in Test for not write a bug in test, logic should be in production code only.\
--if(...){}\
--else(...){}\
--foreach(...){}\
-3-Isolated: not call eac other.\
-4-Not too specific/general\
-Functions : Query & Command\
+### Test-driven Development:
+- Write a failing test.
+- Write the simplest code to make the test pass.
+- Refactor if necessary.
+
+### Benefits of TDD:
+- Testable Source Code
+- Full Coverage by Tests
+- Simpler Implementation
+- Test first/code first.
+
+### Characteristic of Good Unit Tests:
+1- Clean, readable and maintable:less than 10 lines and single responsibility.
+2- No logic in Test for not write a bug in test, logic should be in production code only.
+ ```
+if(...){}
+else(...){}
+foreach(...){}
+```
+3- Isolated: not call eac other.
+4- Not too specific/general
+
+### Functions : Query & Command
 Query functions returns data, so control if it is return true value.\
 Command functions : Peroforms an action.Write db,change object in memory, sending a message in message queu\
 so you make change in system.Check the outcome of the method.We check the outcome is the right way\
 with external dependencies for example adding a new reservation in database and as a external \
 dependencies check the db if new reservation added with new id.\
+
 DON'T TEST:\
 You should assume it is properly tested(Language features3rd-party code), you should test only your code.\
 Test Classes:\
 Reservation.cs -> ReservationTests.cs\
 Number of tests => Number of Execution Paths\
+
 BAD TESTS\
 Test1()\
 SaveCustomerTest()\
