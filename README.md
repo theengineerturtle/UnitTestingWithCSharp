@@ -1,9 +1,10 @@
 # UnitTestingWithCSharp
 # Course by Mosh Hamedani
 
-Fundamentals Of Unit Testing\
+Fundamentals Of Unit Testing
 
 Example Unit Test Method:\
+```
 [Test]\
 public void CanbeCancelledBy_UserIsAdmin_ReturnsTrue()\
 {\
@@ -14,6 +15,7 @@ public void CanbeCancelledBy_UserIsAdmin_ReturnsTrue()\
     //Assert\
     Assert.That(result, Is.True);\
 }\
+```csharp
 Test-driven Development:\
 Write a failing test.\
 Write the simplest code to make the test pass.\
